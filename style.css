@@ -208,3 +208,86 @@ button {
   transition: linear 0.3s;
   transform: scale(1.02) translateX(0.1875rem);
 }
+
+
+/* about us section */
+
+.about {
+  flex-direction: column;
+  margin: 6rem auto;
+  gap: 2rem;
+  max-width: 32.5rem;
+}
+
+
+.about h2 {
+  text-transform: uppercase;
+  color: var(--dark-cyan);
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+
+.about h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--black);
+}
+
+
+.about p {
+  color: var(--gray);
+  font-size: 1.2rem;
+  text-align: center;
+  
+}
+
+
+/* footer */
+footer {
+  padding: 10rem;
+  margin-top: -1.75rem;
+  background-color: var(--dark-cyan);
+  position: relative;
+  z-index: -5;
+}
+
+.footer-wrapper {
+  gap: 3rem;
+  margin: 0 auto;
+  max-width: 69rem;
+}
+
+
+footer::before {
+  content: ""; /* Missing content property */
+  background-image: url(./assets/desktop/image-footer.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  opacity: 0.2;
+}
+
+
+.footer-wrapper h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.footer-wrapper h3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: var(--white );
+}
+
+.footer-wrapper button {
+  color: var(--white);
+  padding: 1rem 1.9rem;
+
+  font-size: 1.2rem;
+}
